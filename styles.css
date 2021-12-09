@@ -1,0 +1,197 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    color:#8f8f8f;
+} 
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.top-container{
+    padding:2% 10%;
+    
+    
+}
+
+
+/* Navbar */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:500;
+    font-size: 2.2rem;
+}
+
+.nav-item{
+    padding:0 20px;
+}
+
+.navbar-links{
+    margin-right: 100px;
+}
+
+.navbar{
+    padding-left:0;
+}
+/* Title container */
+.title-container{
+    padding-top: 40px;
+}
+
+h1{
+    font-weight:900;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+
+.iphone-img{
+    width:60%;
+    transform:rotate(25deg);
+    position:absolute;
+}
+
+.apple-btn{
+   margin-right: 10px;
+}
+
+/* features */
+#features{
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+#features h3{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.features-container{
+    width:75%;
+    margin:auto;
+
+    padding:80px 0;
+}
+.features-item{
+    text-align: center;
+    padding:40px 40px;
+}
+
+#features i{
+    color:#ef8172;
+    font-size: 2.7rem;
+    margin-bottom:10px;
+}
+
+
+
+#features i:hover{
+    color:#ff4c68
+}
+
+/* Testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.carousel-item{
+    padding:7% 15.5%;
+}
+
+#testimonials img{
+    width:10%;
+    border-radius: 100%;
+    margin:3%;
+}
+
+#testimonials h2{
+    font-weight: 700;
+    line-height: 1.5;
+
+}
+
+
+#press{
+    background-color:#ef8172 ;
+    text-align: center;
+    padding-bottom:7%;
+}
+
+#press img{
+    width:15%;
+    margin:0 20px;
+}
+
+/* Pricing */
+
+#pricing{
+    padding:8%;
+    text-align: center;
+   
+}
+
+#pricing h2{
+    font-weight:700;
+}
+
+.price-card{
+    padding:3% 2%;
+}
+
+/* CTA */
+
+#cta{
+    padding:7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+
+.cta-heading{
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.btn{
+    margin:4% 10px;
+}
+
+/* Footer */
+
+footer{
+padding:6% 0;
+text-align: center;
+
+}
+
+.social-icon
+{
+    margin:0 10px;
+}
+
+.copy{
+    margin-top: 15px;
+}
+/* Media queries */
+
+@media (max-width:992px){
+
+    
+    .iphone-img{
+        position: static;
+        transform: rotate(0);
+        padding-top: 30px;
+    }
+    .title-container{
+        text-align: center;
+    }
+}
